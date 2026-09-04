@@ -2,58 +2,118 @@
 
 ## Student Information
 
-Student Name: Ntsako Thandi Gomba  
-
-Student Number: ST10467985  
-
-Module: Web Development  
-
-Module Code: WEDE5020  
-
-Programme: Bachelor of IT in Business Systems  
+**Student Name:** Ntsako Thandi Gomba
+**Student Number:** ST10467985
+**Module:** Web Development
+**Module Code:** WEDE5020
+**Programme:** Bachelor of IT in Business Systems
 
 ## Website Description
 
-This website was created for YEAST Artisan Bakery & Grocer.
+This website was created for **YEAST Artisan Bakery & Grocer**.
 
-The website provides information about the organisation, its bakery products,
+The website provides information about the organisation, its bakery products, locations, contact details and product enquiries.
 
-locations, contact details and product enquiries.
+## Website Goals and Objectives
+
+The main goal of the YEAST Artisan Bakery & Grocer website is to provide visitors with clear, accessible and organised information about the organisation and its products.
+
+The objectives of the website are to:
+
+* Provide information about YEAST Artisan Bakery & Grocer.
+* Display bakery products with descriptions and images.
+* Provide information about the organisation's locations.
+* Allow customers to make product enquiries.
+* Provide contact information for customers.
+* Provide clear and consistent navigation across all pages.
+* Create a responsive and mobile-friendly website.
+* Present the organisation in a professional and visually appealing manner.
 
 ## Website Pages
 
-- Home
-- About
-- Products
-- Enquiry
-- Contact
+* **Home** (`index.html`)
+* **About** (`about.html`)
+* **Products** (`products.html`)
+* **Enquiry** (`enquiry.html`)
+* **Contact** (`contact.html`)
+
+## Sitemap
+
+```text
+YEAST Artisan Bakery & Grocer Website
+│
+├── Home
+│   └── index.html
+│
+├── About
+│   └── about.html
+│
+├── Products
+│   └── products.html
+│
+├── Enquiry
+│   └── enquiry.html
+│
+└── Contact
+    └── contact.html
+```
 
 ## Technologies Used
 
-- HTML5
-- CSS3
-- Visual Studio Code
+* HTML5
+* CSS3
+* Visual Studio Code
 
 ## Website Features
 
-- Clear navigation
-- Responsive and mobile-friendly layout
-- Product cards
-- Product images
-- Product descriptions
-- Enquiry form
-- Contact information
-- Consistent design and footer
+* Clear navigation
+* Responsive and mobile-friendly layout
+* Product cards
+* Product images
+* Product descriptions
+* Enquiry form
+* Contact information
+* Consistent design and footer
+* Semantic HTML5 structure
+* External CSS stylesheet
+
+## Part 1 Project Timeline
+
+The following activities were completed during Part 1:
+
+* Organisation research and selection
+* Website project proposals
+* Content research and sourcing
+* Sitemap planning
+* Website structure planning
+* Creation of the five HTML pages
+* Creation of the project folder structure
+* Creation of the README documentation
+* Initial GitHub repository setup
+
+## Part 1 Testing and Debugging
+
+The website was checked during development to ensure that the required pages, navigation and website structure were working correctly.
+
+The following areas were considered during Part 1 testing:
+
+* Navigation links between all five pages
+* Page layout and content
+* Images and image paths
+* Enquiry form
+* CSS styling
+* HTML structure
+* Website links
+* Code readability
+* Responsive layout considerations
+
+Testing and debugging were performed during development, and improvements were made where necessary.
 
 ## Image Sources
 
-Images used on the website are sourced from appropriate free-to-use,
+Images used on the website are sourced from appropriate free-to-use, public-domain or Creative Commons sources where applicable.
 
-public-domain or Creative Commons sources where applicable.
-
-Image sources and licensing information are recorded in the project
-
-documentation and reference list.
+Image sources and licensing information are recorded in the project documentation and reference list.
 
 ## Image References — Harvard Style
 
@@ -77,16 +137,47 @@ Shwetha manju (2015) *Cake img.jpg* [Photograph]. Available at: https://commons.
 
 Sone, D. (n.d.) *Assortment of breads and pastries.jpg* [Photograph]. Available at: https://commons.wikimedia.org/wiki/File:Assortment_of_breads_and_pastries.jpg (Accessed: 20 August 2026).
 
+## Part 1 Changelog
+
+### Initial Development
+
+* Created the YEAST Artisan Bakery & Grocer website.
+* Created five HTML pages: Home, About, Products, Enquiry and Contact.
+* Added an external CSS stylesheet.
+* Added product images and content.
+* Implemented navigation between the five pages.
+* Added an enquiry form.
+* Added contact and location information.
+* Created the project folder structure.
+* Added project documentation and image references.
+* Created the GitHub repository.
+
+### Part 1 Feedback Improvements
+
+* Added a formal sitemap to the README.
+* Added website goals and objectives.
+* Added Part 1 project timeline information.
+* Added Part 1 testing and debugging documentation.
+* Added a formal changelog.
+* Improved README project documentation.
+
 ## Project Structure
 
+```text
 YEAST-Website/
-
-- index.html
-- about.html
-- products.html
-- enquiry.html
-- contact.html
-- css/style.css
-- js/
-- images/
-- README.md
+│
+├── index.html
+├── about.html
+├── products.html
+├── enquiry.html
+├── contact.html
+│
+├── css/
+│   └── style.css
+│
+├── js/
+│
+├── images/
+│
+└── README.md
+```
