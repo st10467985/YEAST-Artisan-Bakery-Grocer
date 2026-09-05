@@ -109,6 +109,7 @@ The following areas were considered during Part 1 testing:
 
 Testing and debugging were performed during development, and improvements were made where necessary.
 
+Cross-browser testing was performed in Microsoft Edge and Google Chrome. The Home, About, Products, Enquiry and Contact pages were checked in both browsers. Navigation links, page layout, images and content were confirmed to display and function correctly.
 ## Image Sources
 
 Images used on the website are sourced from appropriate free-to-use, public-domain or Creative Commons sources where applicable.
