@@ -58,7 +58,6 @@ YEAST Artisan Bakery & Grocer Website
     └── contact.html
 ```
 
-## Technologies Used
 
 ## Technologies Used
 
@@ -211,8 +210,31 @@ YEAST-Website/
 
 ### Part 2 GitHub Version Control
 
-- Created multiple descriptive Git commits to document development progress.
-- Updated the README with Part 1 feedback improvements.
-- Added cross-browser testing evidence.
-- Committed the improved desktop CSS styling using the message `Improve desktop CSS styling`.
-- Pushed the updated project and commits to the GitHub repository.
+The project was regularly updated using Git and GitHub during Part 2. Multiple descriptive commits were created to document development progress and changes made to the project.
+
+The following commits were made:
+
+1. `Update README with Part 1 feedback improvements`
+   - Updated the README to document improvements made in response to the Part 1 feedback.
+   - Added website goals and objectives, sitemap, project timeline, testing and debugging information, and the Part 1 changelog.
+
+2. `Add cross-browser testing evidence`
+   - Added documentation showing that the website was tested in Google Chrome and Microsoft Edge.
+   - Documented testing of the five website pages and confirmed that navigation, images, content and page layout were displaying correctly.
+
+3. `Improve desktop CSS styling`
+   - Improved the external CSS stylesheet for the desktop version of the website.
+   - Improved typography, spacing, layout, colours, navigation, buttons, forms, product cards and visual styling.
+   - Added CSS pseudo-classes including `:hover`, `:focus` and `:active`.
+
+4. `Update README with Part 2 documentation`
+   - Updated the README with Part 2 development information.
+   - Added documentation for CSS styling, responsive design, testing and Part 2 changes.
+
+5. `Add Git and GitHub to technologies`
+   - Updated the Technologies Used section of the README to include Git and GitHub.
+   - Documented the version-control tools used during website development.
+
+All Part 2 changes were committed using descriptive commit messages and pushed to the remote GitHub repository.
+
+The GitHub repository provides evidence of ongoing development and version control throughout the project.
