@@ -60,9 +60,13 @@ YEAST Artisan Bakery & Grocer Website
 
 ## Technologies Used
 
-* HTML5
-* CSS3
-* Visual Studio Code
+## Technologies Used
+
+- HTML5
+- CSS3
+- Visual Studio Code
+- Git
+- GitHub
 
 ## Website Features
 
