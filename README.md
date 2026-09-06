@@ -182,3 +182,33 @@ YEAST-Website/
 │
 └── README.md
 ```
+
+## Part 2 Changelog
+
+### Part 2 CSS and Responsive Improvements
+
+- Improved the external CSS stylesheet to provide a more consistent desktop layout across all five website pages.
+- Added comprehensive default CSS styling including box sizing, page spacing, image behaviour, typography and link styling.
+- Improved heading and paragraph typography using consistent font families, font sizes and line heights.
+- Improved the layout structure through consistent content widths, spacing, section padding and alignment.
+- Improved the website colour scheme and visual decoration using the existing YEAST colour palette.
+- Added borders, rounded corners and subtle shadows to improve the presentation of content sections and product cards.
+- Improved button and navigation styling.
+- Added CSS pseudo-classes including `:hover`, `:focus` and `:active` states for navigation links, content links and buttons.
+- Improved form styling, including input fields, textarea elements and focus states.
+- Added responsive CSS media queries for tablet, mobile and small mobile screen sizes.
+- Adjusted the product grid to change from two columns to one column on smaller screens.
+- Adjusted navigation to display vertically on mobile screens.
+- Adjusted typography, spacing and section padding for smaller screen sizes.
+- Ensured website images scale correctly within different screen sizes.
+- Tested the website in Google Chrome and Microsoft Edge.
+- Tested the five website pages on desktop and mobile screen sizes.
+- Confirmed that navigation, images, page content, forms and responsive layouts display correctly during testing.
+
+### Part 2 GitHub Version Control
+
+- Created multiple descriptive Git commits to document development progress.
+- Updated the README with Part 1 feedback improvements.
+- Added cross-browser testing evidence.
+- Committed the improved desktop CSS styling using the message `Improve desktop CSS styling`.
+- Pushed the updated project and commits to the GitHub repository.
