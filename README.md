@@ -188,39 +188,31 @@ YEAST-Website/
 
 ## Part 2 Changelog
 
-### Part 2 CSS and Responsive Improvements
+### Part 2 — Working through Feedback from Part 1
 
-- Improved the external CSS stylesheet to provide a more consistent desktop layout across all five website pages.
+The following feedback was received for Part 1:
 
-- Added comprehensive default CSS styling including box sizing, page spacing, image behaviour, typography and link styling.
+- Target Organisation Selection: 5/5. YEAST Artisan Bakery & Grocer was considered an appropriate organisation.
+- Website Proposal 1: 14/15. The proposal was comprehensive, with only minor detail that could be added.
+- Website Proposal 2: 14/15. The proposal was complete and very well developed.
+- Content Research and Sourcing: 9/10. The research was strong, but some source and licensing evidence could have been more explicit.
+- Sitemap: 7/8. The sitemap was good, but it was mainly presented as a document representation rather than a highly detailed visual diagram.
+- File and Folder Structure: 7/7. The project was well organised.
+- HTML Pages and Structure: 14/15. All five pages were present and used appropriate HTML5 structure, semantic elements, headings, images, links and meaningful content.
+- Navigation: 8/8. Navigation was consistent across all five pages and the relative links worked correctly.
+- Testing, Debugging and Code Comments: 5/7. The website included explanatory comments and responsive CSS, but stronger cross-browser testing and debugging evidence was required.
+- GitHub Repository and Version Control: 2/5. Only one initial commit was available, and regular commits with descriptive messages were required.
+- README: 4/5. The README included important project information, but a formal changelog, sitemap and some Part 1 documentation needed improvement.
+- Submission Requirements: 4/5. Most requirements were met, with Git and version control being the main weakness.
 
-- Improved heading and paragraph typography using consistent font families, font sizes and line heights.
+Based on this feedback, the following corrections and improvements were made:
 
-- Improved the layout structure through consistent content widths, spacing, section padding and alignment.
-
-- Improved the website colour scheme and visual decoration using the existing YEAST colour palette.
-
-- Added borders, rounded corners and subtle shadows to improve the presentation of content sections and product cards.
-
-- Improved button and navigation styling.
-
-- Added CSS pseudo-classes including `:hover`, `:focus` and `:active` states for navigation links, content links and buttons.
-
-- Improved form styling, including input fields, textarea elements and focus states.
-
-- Added responsive CSS media queries for tablet, mobile and small mobile screen sizes.
-
-- Adjusted the product grid to change from two columns to one column on smaller screens.
-
-- Adjusted navigation to display in a two-column layout on mobile screens.
-
-- Ensured website images scale correctly within different screen sizes.
-
-- Tested the website in Google Chrome and Microsoft Edge.
-
-- Tested the five website pages on desktop and mobile screen sizes.
-
-- Confirmed that navigation, images, page content, forms and responsive layouts display correctly during testing.
+- Added clearer cross-browser testing and debugging evidence.
+- Added testing evidence for the five website pages, including navigation, images, content and page layout.
+- Created multiple descriptive Git commits to document development progress.
+- Improved the README by adding a formal changelog and additional project documentation.
+- Added a clearer sitemap and project structure to the README.
+- Added clearer information about image sources and licensing.
 
 ### Part 2 GitHub Version Control
 
@@ -254,6 +246,12 @@ The following commits were made:
    - Improved image styling in the external CSS stylesheet.
 
    - Ensured images scale correctly within different screen sizes.
+
+   7. `Complete Part 2 CSS and responsive design`
+
+   - Completed the CSS styling and responsive design requirements for Part 2.
+   - Added and tested responsive layouts for desktop, tablet and mobile screen sizes.
+   - Added responsive testing screenshots to the README.
 
 All Part 2 changes were committed using descriptive commit messages and pushed to the remote GitHub repository.
 
