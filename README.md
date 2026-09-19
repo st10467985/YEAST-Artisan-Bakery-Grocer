@@ -191,21 +191,35 @@ YEAST-Website/
 ### Part 2 CSS and Responsive Improvements
 
 - Improved the external CSS stylesheet to provide a more consistent desktop layout across all five website pages.
+
 - Added comprehensive default CSS styling including box sizing, page spacing, image behaviour, typography and link styling.
+
 - Improved heading and paragraph typography using consistent font families, font sizes and line heights.
+
 - Improved the layout structure through consistent content widths, spacing, section padding and alignment.
+
 - Improved the website colour scheme and visual decoration using the existing YEAST colour palette.
+
 - Added borders, rounded corners and subtle shadows to improve the presentation of content sections and product cards.
+
 - Improved button and navigation styling.
+
 - Added CSS pseudo-classes including `:hover`, `:focus` and `:active` states for navigation links, content links and buttons.
+
 - Improved form styling, including input fields, textarea elements and focus states.
+
 - Added responsive CSS media queries for tablet, mobile and small mobile screen sizes.
+
 - Adjusted the product grid to change from two columns to one column on smaller screens.
-- Adjusted navigation to display vertically on mobile screens.
-- Adjusted typography, spacing and section padding for smaller screen sizes.
+
+- Adjusted navigation to display in a two-column layout on mobile screens.
+
 - Ensured website images scale correctly within different screen sizes.
+
 - Tested the website in Google Chrome and Microsoft Edge.
+
 - Tested the five website pages on desktop and mobile screen sizes.
+
 - Confirmed that navigation, images, page content, forms and responsive layouts display correctly during testing.
 
 ### Part 2 GitHub Version Control
@@ -235,6 +249,33 @@ The following commits were made:
    - Updated the Technologies Used section of the README to include Git and GitHub.
    - Documented the version-control tools used during website development.
 
+   6. `Add responsive image styling`
+
+   - Improved image styling in the external CSS stylesheet.
+
+   - Ensured images scale correctly within different screen sizes.
+
 All Part 2 changes were committed using descriptive commit messages and pushed to the remote GitHub repository.
 
 The GitHub repository provides evidence of ongoing development and version control throughout the project.
+
+## Part 2 Responsive Testing
+
+### Mobile Testing — 412 × 549 px
+
+The website was tested at a mobile viewport size of 412 × 549 pixels. The navigation changed to a two-column layout, and the Featured Products displayed one underneath another. The content, images and page layout fitted within the viewport without horizontal overflow.
+
+![Mobile responsive test - 412 x 549](images/mobile-test-412px.png)
+
+### Tablet Testing — 800 × 549 px
+
+The website was tested at a tablet viewport size of 800 × 549 pixels. The Our Products section displayed product cards side-by-side. The content, images and page layout fitted within the viewport without horizontal overflow.
+
+![Tablet responsive test - 800 x 549](images/tablet-test-800px.png)
+
+### Desktop Testing — 1100 × 549 px
+
+The website was tested at a desktop viewport size of 1100 × 549 pixels. The website displayed correctly, with the content, images and layout fitting within the viewport.
+
+![Desktop responsive test - 1100 x 549](images/desktop-test-1100px.png)
+
