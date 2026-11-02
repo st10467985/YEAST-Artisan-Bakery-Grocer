@@ -1,3 +1,4 @@
+
 # YEAST Artisan Bakery & Grocer Website
 
 ## Student Information
@@ -58,7 +59,6 @@ YEAST Artisan Bakery & Grocer Website
     └── contact.html
 ```
 
-
 ## Technologies Used
 
 - HTML5
@@ -113,6 +113,7 @@ The following areas were considered during Part 1 testing:
 Testing and debugging were performed during development, and improvements were made where necessary.
 
 Cross-browser testing was performed in Microsoft Edge and Google Chrome. The Home, About, Products, Enquiry and Contact pages were checked in both browsers. Navigation links, page layout, images and content were confirmed to display and function correctly.
+
 ## Image Sources
 
 Images used on the website are sourced from appropriate free-to-use, public-domain or Creative Commons sources where applicable.
@@ -241,13 +242,13 @@ The following commits were made:
    - Updated the Technologies Used section of the README to include Git and GitHub.
    - Documented the version-control tools used during website development.
 
-   6. `Add responsive image styling`
+6. `Add responsive image styling`
 
    - Improved image styling in the external CSS stylesheet.
 
    - Ensured images scale correctly within different screen sizes.
 
-   7. `Complete Part 2 CSS and responsive design`
+7. `Complete Part 2 CSS and responsive design`
 
    - Completed the CSS styling and responsive design requirements for Part 2.
    - Added and tested responsive layouts for desktop, tablet and mobile screen sizes.
@@ -277,3 +278,29 @@ The website was tested at a desktop viewport size of 1100 × 549 pixels. The web
 
 ![Desktop responsive test - 1100 x 549](images/desktop-test-1100px.png)
 
+## Part 3 Changelog
+
+### Part 3 — Working through Feedback from Part 2
+
+The lecturer's feedback for Formative 2 Part 2 was received on 02 October 2026. The website received a mark of **100/100 (100%)**. All marking criteria were rated as **Greatly Exceeds**.
+
+The lecturer confirmed the following:
+
+- **Knowledge – Updates based on feedback & changelog: 10/10.** The Part 2 changelog explicitly recorded the Part 1 feedback and corrective actions, including testing evidence, Git commits, README improvements, image licensing and responsive work.
+- **External stylesheet created and implemented in each web page: 10/10.** The external CSS stylesheet, `css/style.css`, was correctly created and linked to the website pages.
+- **CSS – Default Style Code: 5/5.** Comprehensive styling was provided for the body, images, links, lists, headings, paragraphs, box sizing, colours, spacing and line height.
+- **CSS – Typography Styles: 5/5.** Consistent font families, sizes, weights, line heights, colours and responsive `clamp()` sizing were used.
+- **CSS – Layout Structure: 5/5.** Flexbox, grid, maximum-width containers, spacing, padding and structured content sections were implemented effectively.
+- **CSS – Decoration and Colour: 5/5.** The website included colour combinations, borders, shadows, rounded corners, buttons and section styling.
+- **CSS – Pseudo-Classes Used: 10/10.** The `:hover`, `:focus` and `:active` pseudo-classes were implemented for navigation, links, buttons and form controls.
+- **Responsive Design – Media Queries/Breakpoints: 10/10.** Responsive breakpoints were implemented at 800px and 520px.
+- **Responsive Design – Layout: 5/5.** Product grids changed from two columns to one column on mobile, and spacing was adjusted.
+- **Responsive Design – Typography: 5/5.** Responsive heading typography was implemented using `clamp()`.
+- **Responsive Design – Navigation Menu: 5/5.** The horizontal flex navigation changed to a two-column grid layout on mobile.
+- **Responsive Design – Images: 5/5.** Images used responsive sizing with `max-width: 100%` and `height: auto`, together with page-specific styling.
+- **GitHub – Multiple Descriptive Commits: 5/5.** Multiple descriptive Part 2 commits documented desktop CSS, responsive images, responsive design and README improvements.
+- **GitHub – README Document: 5/5.** The README included student and project information, objectives, pages, sitemap, technologies, features, testing, references and Part 1 and Part 2 documentation.
+- **GitHub – Changelog: 5/5.** A dedicated Part 2 changelog documented feedback received, improvements and the development process.
+- **References: 5/5.** Harvard-style image references included multiple named sources, URLs and access dates.
+
+No corrective changes were identified in the lecturer's Part 2 feedback. Therefore, the existing website design, CSS styling and responsive features will be maintained while the functionality and SEO improvements required for Part 3 are developed.
