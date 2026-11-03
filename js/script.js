@@ -6,6 +6,26 @@ document.addEventListener("DOMContentLoaded", function () {
 
     console.log("YEAST website JavaScript loaded successfully.");
 
+    // Dynamically load product descriptions
+    const productDescriptions = {
+        breads: "Our bread selection includes artisan breads such as sourdough, ciabatta, rye bread and baguettes.",
+        cakes: "A selection of cakes and sweet baked products.",
+        pastries: "Fresh pastries and other sweet bakery products.",
+        savoury: "Savoury bakery products including quiches and other savoury items.",
+        other: "Other baked goods including Chelsea buns and doughnuts.",
+        grocery: "A selection of grocery products available from YEAST Artisan Bakery & Grocer."
+    };
+
+    document.querySelectorAll(".dynamic-description").forEach(function (description) {
+
+        const category = description.getAttribute("data-category");
+
+        if (productDescriptions[category]) {
+            description.textContent = productDescriptions[category];
+        }
+
+    });
+
     // Interactive product tabs
     const tabButtons = document.querySelectorAll(".tab-button");
     const tabPanels = document.querySelectorAll(".tab-panel");
