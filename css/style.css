@@ -1,3 +1,4 @@
+
 /* =========================================
    YEAST Artisan Bakery & Grocer
    Main Website Styles
@@ -190,6 +191,45 @@ section:last-child {
 section h2 {
     border-bottom: 2px solid #D8C3A5;
     padding-bottom: 0.625rem;
+}
+
+
+/* =========================================
+   ABOUT PAGE ACCORDION
+   ========================================= */
+
+details {
+    margin-bottom: 0.75rem;
+    padding: 1rem;
+    background-color: #F5EBDD;
+    border: 1px solid #D8C3A5;
+    border-radius: 0.375rem;
+}
+
+summary {
+    color: #3E2F27;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 0.25rem;
+}
+
+summary:hover {
+    color: #6F8065;
+}
+
+summary:focus {
+    outline: 2px solid #6F8065;
+    outline-offset: 3px;
+}
+
+details[open] summary {
+    margin-bottom: 1rem;
+    border-bottom: 1px solid #D8C3A5;
+    padding-bottom: 0.75rem;
+}
+
+details p:last-child {
+    margin-bottom: 0;
 }
 
 
@@ -526,4 +566,8 @@ footer a:hover {
     footer {
         padding: 1.25rem 4%;
     }
+}
+/* Keep accordion content hidden until opened */
+details:not([open]) > p {
+    display: none;
 }
