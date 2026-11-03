@@ -423,3 +423,9 @@ Social media platforms can be used to promote YEAST and attract more visitors to
 **3. Local SEO**
 
 Local SEO helps customers find YEAST when searching for bakeries in their area. The business can use Google Business Profile to display its Bedfordview and Dunvegan locations, contact details, opening hours and customer reviews. Local keywords such as "artisan bakery in Bedfordview" and "bakery in Dunvegan, Edenvale" can also improve local search visibility.
+**Website Page Speed**
+
+The YEAST Artisan Bakery & Grocer website was tested using Google PageSpeed Insights to evaluate its loading performance. The website achieved a Performance score of 85/100 and recorded a loading time of 2.1 seconds. The test helped assess the website's performance and identify possible areas for further improvement.
+**Website Security**
+
+The YEAST Artisan Bakery & Grocer website is published using GitHub Pages with HTTPS enabled. HTTPS provides a secure connection between the website and visitors' browsers, helping protect information transmitted between them.
