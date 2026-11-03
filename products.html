@@ -48,8 +48,51 @@
             <p id="searchMessage" aria-live="polite"></p>
         </div>
 
+        <!-- Interactive product tabs -->
+        <div class="product-tabs" role="tablist" aria-label="Product categories">
+
+            <button type="button" class="tab-button active"
+                id="tab-breads" role="tab"
+                aria-selected="true" aria-controls="breads">
+                Breads
+            </button>
+
+            <button type="button" class="tab-button"
+                id="tab-cakes" role="tab"
+                aria-selected="false" aria-controls="cakes">
+                Cakes
+            </button>
+
+            <button type="button" class="tab-button"
+                id="tab-pastries" role="tab"
+                aria-selected="false" aria-controls="pastries">
+                Pastries
+            </button>
+
+            <button type="button" class="tab-button"
+                id="tab-savoury" role="tab"
+                aria-selected="false" aria-controls="savoury">
+                Savoury
+            </button>
+
+            <button type="button" class="tab-button"
+                id="tab-other" role="tab"
+                aria-selected="false" aria-controls="other">
+                Other Baked Goods
+            </button>
+
+            <button type="button" class="tab-button"
+                id="tab-grocery" role="tab"
+                aria-selected="false" aria-controls="grocery">
+                Grocery
+            </button>
+
+        </div>
+
         <!-- Breads -->
-        <section class="product-item">
+        <section class="product-item tab-panel"
+            id="breads" role="tabpanel" aria-labelledby="tab-breads">
+
             <h3>Breads</h3>
 
             <img src="images/breads.jpg" alt="Freshly baked artisan breads">
@@ -61,7 +104,9 @@
         </section>
 
         <!-- Cakes -->
-        <section class="product-item">
+        <section class="product-item tab-panel"
+            id="cakes" role="tabpanel" aria-labelledby="tab-cakes" hidden>
+
             <h3>Cakes</h3>
 
             <img src="images/cakes.jpg" alt="Freshly baked cakes">
@@ -72,7 +117,9 @@
         </section>
 
         <!-- Pastries -->
-        <section class="product-item">
+        <section class="product-item tab-panel"
+            id="pastries" role="tabpanel" aria-labelledby="tab-pastries" hidden>
+
             <h3>Pastries</h3>
 
             <img src="images/pastries.jpg" alt="Freshly baked pastries">
@@ -83,7 +130,9 @@
         </section>
 
         <!-- Savoury products -->
-        <section class="product-item">
+        <section class="product-item tab-panel"
+            id="savoury" role="tabpanel" aria-labelledby="tab-savoury" hidden>
+
             <h3>Savoury</h3>
 
             <img src="images/savoury.jpg"
@@ -95,7 +144,9 @@
         </section>
 
         <!-- Other baked goods -->
-        <section class="product-item">
+        <section class="product-item tab-panel"
+            id="other" role="tabpanel" aria-labelledby="tab-other" hidden>
+
             <h3>Other Baked Goods</h3>
 
             <img src="images/other-baked-goods.jpg"
@@ -107,7 +158,9 @@
         </section>
 
         <!-- Grocery products -->
-        <section class="product-item">
+        <section class="product-item tab-panel"
+            id="grocery" role="tabpanel" aria-labelledby="tab-grocery" hidden>
+
             <h3>Grocery</h3>
 
             <img src="images/grocery.jpg"

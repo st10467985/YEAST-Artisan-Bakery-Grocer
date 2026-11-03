@@ -6,6 +6,88 @@ document.addEventListener("DOMContentLoaded", function () {
 
     console.log("YEAST website JavaScript loaded successfully.");
 
+    // Interactive product tabs
+    const tabButtons = document.querySelectorAll(".tab-button");
+    const tabPanels = document.querySelectorAll(".tab-panel");
+
+    let activeTab = "breads";
+
+    function showProductTab(tabId) {
+
+        activeTab = tabId;
+
+        tabButtons.forEach(function (button) {
+
+            const isActive = button.getAttribute("aria-controls") === tabId;
+
+            button.classList.toggle("active", isActive);
+            button.setAttribute("aria-selected", isActive ? "true" : "false");
+            button.setAttribute("tabindex", isActive ? "0" : "-1");
+
+        });
+
+        tabPanels.forEach(function (panel) {
+
+            panel.hidden = panel.id !== tabId;
+
+        });
+
+    }
+
+    if (tabButtons.length > 0 && tabPanels.length > 0) {
+
+        tabButtons.forEach(function (button) {
+
+            button.addEventListener("click", function () {
+
+                const selectedTab = button.getAttribute("aria-controls");
+
+                if (selectedTab) {
+                    showProductTab(selectedTab);
+                }
+
+                // Clear search when changing categories
+                if (productSearch) {
+                    productSearch.value = "";
+                }
+
+                if (searchMessage) {
+                    searchMessage.textContent = "";
+                }
+
+            });
+
+            // Keyboard navigation between tabs
+            button.addEventListener("keydown", function (event) {
+
+                const currentIndex = Array.from(tabButtons).indexOf(button);
+                let nextIndex = currentIndex;
+
+                if (event.key === "ArrowRight") {
+                    nextIndex = (currentIndex + 1) % tabButtons.length;
+                } else if (event.key === "ArrowLeft") {
+                    nextIndex = (currentIndex - 1 + tabButtons.length) % tabButtons.length;
+                } else if (event.key === "Home") {
+                    nextIndex = 0;
+                } else if (event.key === "End") {
+                    nextIndex = tabButtons.length - 1;
+                } else {
+                    return;
+                }
+
+                event.preventDefault();
+
+                tabButtons[nextIndex].focus();
+                tabButtons[nextIndex].click();
+
+            });
+
+        });
+
+        showProductTab(activeTab);
+
+    }
+
     // Product search functionality
     const productSearch = document.getElementById("productSearch");
     const products = document.querySelectorAll(".product-item");
@@ -18,28 +100,41 @@ document.addEventListener("DOMContentLoaded", function () {
             const searchValue = productSearch.value.toLowerCase().trim();
             let visibleProducts = 0;
 
+            if (searchValue === "") {
+
+                products.forEach(function (product) {
+                    product.hidden = product.id !== activeTab;
+                });
+
+                if (searchMessage) {
+                    searchMessage.textContent = "";
+                }
+
+                return;
+            }
+
             products.forEach(function (product) {
 
                 const productText = product.textContent.toLowerCase();
+                const matches = productText.includes(searchValue);
 
-                if (productText.includes(searchValue)) {
-                    product.style.display = "";
+                product.hidden = !matches;
+
+                if (matches) {
                     visibleProducts++;
-                } else {
-                    product.style.display = "none";
                 }
 
             });
 
             if (searchMessage) {
-                if (searchValue === "") {
-                    searchMessage.textContent = "";
-                } else if (visibleProducts === 0) {
+
+                if (visibleProducts === 0) {
                     searchMessage.textContent = "No matching products found.";
                 } else {
                     searchMessage.textContent =
                         visibleProducts + " product category/categories found.";
                 }
+
             }
 
         });
