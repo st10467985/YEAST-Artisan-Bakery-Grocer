@@ -12,6 +12,11 @@ document.addEventListener("DOMContentLoaded", function () {
 
     let activeTab = "breads";
 
+    // Product search elements
+    const productSearch = document.getElementById("productSearch");
+    const products = document.querySelectorAll(".product-item");
+    const searchMessage = document.getElementById("searchMessage");
+
     function showProductTab(tabId) {
 
         activeTab = tabId;
@@ -89,10 +94,6 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     // Product search functionality
-    const productSearch = document.getElementById("productSearch");
-    const products = document.querySelectorAll(".product-item");
-    const searchMessage = document.getElementById("searchMessage");
-
     if (productSearch) {
 
         productSearch.addEventListener("input", function () {
@@ -226,6 +227,58 @@ document.addEventListener("DOMContentLoaded", function () {
 
             if (event.key === "Escape") {
                 closeLightbox();
+            }
+
+        });
+
+    }
+
+    // Product enquiry modal functionality
+    const enquiryModal = document.getElementById("enquiryModal");
+    const openEnquiryModal = document.getElementById("openEnquiryModal");
+    const closeEnquiryModal = document.getElementById("closeEnquiryModal");
+
+    if (enquiryModal && openEnquiryModal && closeEnquiryModal) {
+
+        // Open the modal
+        openEnquiryModal.addEventListener("click", function () {
+
+            enquiryModal.style.display = "flex";
+            enquiryModal.setAttribute("aria-hidden", "false");
+
+            closeEnquiryModal.focus();
+
+        });
+
+        // Close the modal
+        function closeProductEnquiryModal() {
+
+            enquiryModal.style.display = "none";
+            enquiryModal.setAttribute("aria-hidden", "true");
+
+            openEnquiryModal.focus();
+
+        }
+
+        closeEnquiryModal.addEventListener("click", closeProductEnquiryModal);
+
+        // Close when clicking outside the modal content
+        enquiryModal.addEventListener("click", function (event) {
+
+            if (event.target === enquiryModal) {
+                closeProductEnquiryModal();
+            }
+
+        });
+
+        // Close the modal using the Escape key
+        document.addEventListener("keydown", function (event) {
+
+            if (
+                event.key === "Escape" &&
+                enquiryModal.style.display === "flex"
+            ) {
+                closeProductEnquiryModal();
             }
 
         });

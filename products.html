@@ -172,10 +172,36 @@
             </p>
         </section>
 
-        <!-- Product enquiry link -->
-        <p id="productEnquiry">
-            <a href="enquiry.html">Enquire About a Product</a>
-        </p>
+        <!-- Product enquiry modal button -->
+        <div id="productEnquiry">
+            <button type="button" id="openEnquiryModal">
+                Enquire About a Product
+            </button>
+        </div>
+
+        <!-- Product enquiry modal -->
+        <div id="enquiryModal" class="modal" aria-hidden="true">
+
+            <div class="modal-content" role="dialog"
+                 aria-modal="true" aria-labelledby="modalTitle">
+
+                <button type="button" id="closeEnquiryModal"
+                        class="modal-close" aria-label="Close modal">
+                    &times;
+                </button>
+
+                <h2 id="modalTitle">Product Enquiry</h2>
+
+                <p>
+                    Interested in one of our bakery or grocery products?
+                    Visit our Enquiry page to tell us what you are looking for.
+                </p>
+
+                <a href="enquiry.html">Go to Enquiry Page</a>
+
+            </div>
+
+        </div>
 
     </main>
 
