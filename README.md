@@ -425,7 +425,19 @@ Social media platforms can be used to promote YEAST and attract more visitors to
 Local SEO helps customers find YEAST when searching for bakeries in their area. The business can use Google Business Profile to display its Bedfordview and Dunvegan locations, contact details, opening hours and customer reviews. Local keywords such as "artisan bakery in Bedfordview" and "bakery in Dunvegan, Edenvale" can also improve local search visibility.
 **Website Page Speed**
 
-The YEAST Artisan Bakery & Grocer website was tested using Google PageSpeed Insights to evaluate its loading performance. The website achieved a Performance score of 85/100 and recorded a loading time of 2.1 seconds. The test helped assess the website's performance and identify possible areas for further improvement.
+**Website Page Speed**
+
+The YEAST Artisan Bakery & Grocer website was tested using Google PageSpeed Insights to evaluate its performance. The website achieved a Performance score of 85/100 and recorded a Speed Index of 2.1 seconds. The test helped assess the website's performance and identify possible areas for further improvement.
+
 **Website Security**
 
 The YEAST Artisan Bakery & Grocer website is published using GitHub Pages with HTTPS enabled. HTTPS provides a secure connection between the website and visitors' browsers, helping protect information transmitted between them.
+### 4.2 JavaScript Form Validation
+
+JavaScript was used to validate the enquiry and contact forms on the YEAST Artisan Bakery & Grocer website. The validation checks that required fields are completed and that the information entered follows the correct format.
+
+The enquiry form checks the customer's name, email address, phone number, enquiry type, requested product or service, quantity and message. Once the information is valid, a confirmation message is displayed.
+
+The contact form checks the visitor's name, email address, phone number, message type and message. After successful validation, Gmail opens with the recipient, subject and message details prepared so that the visitor can review and send the email.
+
+These validation features help reduce incomplete or incorrectly formatted submissions and improve the user experience.
