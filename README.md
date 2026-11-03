@@ -410,3 +410,16 @@ The SEO updates were committed and pushed to the GitHub repository using the fol
 `Complete Part 3 SEO updates and add sitemap`
 
 The updated HTML pages, `robots.txt`, `sitemap.xml` and README documentation form part of the Part 3 website development.
+### 3.2 Off-page SEO
+
+**1. Backlinks**
+
+YEAST Artisan Bakery & Grocer can improve its online visibility by obtaining backlinks from local business directories, food blogs and websites that promote businesses in Bedfordview and Dunvegan. These links can direct visitors to the YEAST website and help improve its search engine visibility.
+
+**2. Social Media Promotion**
+
+Social media platforms can be used to promote YEAST and attract more visitors to the website. Facebook can be used to share business updates and promotions, Instagram to display photographs of bakery products, and WhatsApp Business to communicate with customers and share product information.
+
+**3. Local SEO**
+
+Local SEO helps customers find YEAST when searching for bakeries in their area. The business can use Google Business Profile to display its Bedfordview and Dunvegan locations, contact details, opening hours and customer reviews. Local keywords such as "artisan bakery in Bedfordview" and "bakery in Dunvegan, Edenvale" can also improve local search visibility.
