@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://st10467985.github.io/YEAST-Artisan-Bakery-Grocer/sitemap.xml
