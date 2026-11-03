@@ -3,10 +3,10 @@
 
 ## Student Information
 
-**Student Name:** Ntsako Thandi Gomba
-**Student Number:** ST10467985
-**Module:** Web Development
-**Module Code:** WEDE5020
+**Student Name:** Ntsako Thandi Gomba  
+**Student Number:** ST10467985  
+**Module:** Web Development  
+**Module Code:** WEDE5020  
 **Programme:** Bachelor of IT in Business Systems
 
 ## Website Description
@@ -181,6 +181,7 @@ YEAST-Website/
 │   └── style.css
 │
 ├── js/
+│   └── script.js
 │
 ├── images/
 │
@@ -243,13 +244,10 @@ The following commits were made:
    - Documented the version-control tools used during website development.
 
 6. `Add responsive image styling`
-
    - Improved image styling in the external CSS stylesheet.
-
    - Ensured images scale correctly within different screen sizes.
 
 7. `Complete Part 2 CSS and responsive design`
-
    - Completed the CSS styling and responsive design requirements for Part 2.
    - Added and tested responsive layouts for desktop, tablet and mobile screen sizes.
    - Added responsive testing screenshots to the README.
@@ -304,3 +302,33 @@ The lecturer confirmed the following:
 - **References: 5/5.** Harvard-style image references included multiple named sources, URLs and access dates.
 
 No corrective changes were identified in the lecturer's Part 2 feedback. Therefore, the existing website design, CSS styling and responsive features will be maintained while the functionality and SEO improvements required for Part 3 are developed.
+
+### Part 3 — Functionality Improvements
+
+The following functionality improvements have been implemented as part of Part 3:
+
+- Created a JavaScript file, `js/script.js`, and linked it to all five HTML pages.
+- Added product search functionality on the Products page, allowing visitors to search and filter product categories.
+- Added an image lightbox that allows visitors to click product images to view them in an enlarged format.
+- Added an interactive Leaflet map to the Contact page showing the YEAST Bedfordview and Dunvegan locations.
+- Improved the Enquiry form by adding required fields, input validation and a confirmation message after successful form submission.
+- Improved the Contact form by adding required fields, input validation and a message type selection.
+- Added JavaScript functionality to prepare contact form details in a Gmail compose window, allowing visitors to review and send their messages.
+- Tested the product search, image lightbox, interactive map, Enquiry form and Contact form during development.
+
+### Part 3 — JavaScript and Form Functionality
+
+JavaScript was used to improve website interaction and functionality. The product search allows visitors to find product categories, while the image lightbox provides an enlarged view of product images.
+
+The Enquiry form checks the submitted information and displays a confirmation message. The Contact form validates the visitor's details and prepares an email in Gmail with the recipient, subject and message information filled in. The visitor can review the email and send it through Gmail.
+
+### Part 3 — Technologies Added
+
+- JavaScript
+- Leaflet
+- OpenStreetMap
+- Live Server extension for Visual Studio Code
+
+### Part 3 — Testing
+
+The new functionality was tested using the Live Server extension in Visual Studio Code. The product search, image lightbox, map display, Enquiry form validation and Contact form email preparation were checked to confirm that they worked as expected.

@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -27,8 +28,19 @@
 
         <h2>Our Products</h2>
 
+        <!-- Product search -->
+        <div class="product-search">
+            <label for="productSearch">Search for a product:</label>
+            <input
+                type="text"
+                id="productSearch"
+                placeholder="Search breads, cakes, pastries..."
+            >
+            <p id="searchMessage" aria-live="polite"></p>
+        </div>
+
         <!-- Breads -->
-        <section>
+        <section class="product-item">
             <h3>Breads</h3>
 
             <img src="images/breads.jpg" alt="Freshly baked breads">
@@ -40,7 +52,7 @@
         </section>
 
         <!-- Cakes -->
-        <section>
+        <section class="product-item">
             <h3>Cakes</h3>
 
             <img src="images/cakes.jpg" alt="Freshly baked cakes">
@@ -51,7 +63,7 @@
         </section>
 
         <!-- Pastries -->
-        <section>
+        <section class="product-item">
             <h3>Pastries</h3>
 
             <img src="images/pastries.jpg" alt="Freshly baked pastries">
@@ -62,7 +74,7 @@
         </section>
 
         <!-- Savoury products -->
-        <section>
+        <section class="product-item">
             <h3>Savoury</h3>
 
             <img src="images/savoury.jpg" alt="Savoury baked products">
@@ -73,7 +85,7 @@
         </section>
 
         <!-- Other baked goods -->
-        <section>
+        <section class="product-item">
             <h3>Other Baked Goods</h3>
 
             <img src="images/other-baked-goods.jpg"
@@ -85,7 +97,7 @@
         </section>
 
         <!-- Grocery products -->
-        <section>
+        <section class="product-item">
             <h3>Grocery</h3>
 
             <img src="images/grocery.jpg"
@@ -98,7 +110,7 @@
         </section>
 
         <!-- Product enquiry link -->
-        <p>
+        <p id="productEnquiry">
             <a href="enquiry.html">Enquire About a Product</a>
         </p>
 
@@ -110,5 +122,6 @@
         <p>Contact | Social Media | Opening Hours</p>
     </footer>
 
+    <script src="js/script.js"></script>
 </body>
 </html>

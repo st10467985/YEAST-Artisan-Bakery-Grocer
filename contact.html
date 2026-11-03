@@ -1,9 +1,17 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+
+    <!-- Leaflet map stylesheet -->
+    <link
+        rel="stylesheet"
+        href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    >
+
     <title>YEAST Artisan Bakery &amp; Grocer - Contact</title>
 </head>
 
@@ -92,6 +100,81 @@
                 YEAST Artisan Bakery &amp; Grocer has locations in Bedfordview
                 and Dunvegan, Edenvale.
             </p>
+
+            <!-- Interactive map -->
+            <div id="yeastMap"
+                 style="height: 400px; width: 100%; margin: 20px 0;">
+            </div>
+
+            <p>
+                Select a map marker to view the location details.
+            </p>
+        </section>
+
+        <!-- Contact form -->
+        <section>
+            <h2>Contact Us</h2>
+
+            <p>
+                Please complete the form below to send us a message.
+            </p>
+
+            <form id="contactForm">
+
+                <!-- Customer name -->
+                <p>
+                    <label for="contactName">Full Name:</label><br>
+                    <input type="text" id="contactName" name="contactName"
+                           required minlength="2" maxlength="60">
+                </p>
+
+                <!-- Customer email -->
+                <p>
+                    <label for="contactEmail">Email Address:</label><br>
+                    <input type="email" id="contactEmail" name="contactEmail"
+                           required>
+                </p>
+
+                <!-- Customer phone -->
+                <p>
+                    <label for="contactPhone">Phone Number:</label><br>
+                    <input type="tel" id="contactPhone" name="contactPhone"
+                           required pattern="[0-9+() -]{10,15}"
+                           title="Enter a valid phone number.">
+                </p>
+
+                <!-- Message type -->
+                <p>
+                    <label for="messageType">Message Type:</label><br>
+                    <select id="messageType" name="messageType" required>
+                        <option value="">Select message type</option>
+                        <option value="General Enquiry">General Enquiry</option>
+                        <option value="Product Feedback">Product Feedback</option>
+                        <option value="Complaint">Complaint</option>
+                        <option value="Compliment">Compliment</option>
+                        <option value="Other">Other</option>
+                    </select>
+                </p>
+
+                <!-- Full message -->
+                <p>
+                    <label for="contactMessage">Your Message:</label><br>
+                    <textarea id="contactMessage" name="contactMessage"
+                              rows="6" cols="40"
+                              minlength="10" maxlength="1000"
+                              required></textarea>
+                </p>
+
+                <!-- Submit button -->
+                <p>
+                    <button type="submit">Send Message</button>
+                </p>
+
+            </form>
+
+            <!-- Contact form response -->
+            <div id="contactResponse" role="status" aria-live="polite"></div>
+
         </section>
 
         <!-- Enquiry link -->
@@ -112,6 +195,12 @@
         <p>YEAST Artisan Bakery &amp; Grocer</p>
         <p>Contact | Social Media | Opening Hours</p>
     </footer>
+
+    <!-- Leaflet map JavaScript library -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+    <!-- Website JavaScript -->
+    <script src="js/script.js"></script>
 
 </body>
 </html>
