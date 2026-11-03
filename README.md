@@ -21,22 +21,22 @@ The main goal of the YEAST Artisan Bakery & Grocer website is to provide visitor
 
 The objectives of the website are to:
 
-* Provide information about YEAST Artisan Bakery & Grocer.
-* Display bakery products with descriptions and images.
-* Provide information about the organisation's locations.
-* Allow customers to make product enquiries.
-* Provide contact information for customers.
-* Provide clear and consistent navigation across all pages.
-* Create a responsive and mobile-friendly website.
-* Present the organisation in a professional and visually appealing manner.
+- Provide information about YEAST Artisan Bakery & Grocer.
+- Display bakery products with descriptions and images.
+- Provide information about the organisation's locations.
+- Allow customers to make product enquiries.
+- Provide contact information for customers.
+- Provide clear and consistent navigation across all pages.
+- Create a responsive and mobile-friendly website.
+- Present the organisation in a professional and visually appealing manner.
 
 ## Website Pages
 
-* **Home** (`index.html`)
-* **About** (`about.html`)
-* **Products** (`products.html`)
-* **Enquiry** (`enquiry.html`)
-* **Contact** (`contact.html`)
+- **Home** (`index.html`)
+- **About** (`about.html`)
+- **Products** (`products.html`)
+- **Enquiry** (`enquiry.html`)
+- **Contact** (`contact.html`)
 
 ## Sitemap
 
@@ -63,36 +63,47 @@ YEAST Artisan Bakery & Grocer Website
 
 - HTML5
 - CSS3
+- JavaScript
+- Leaflet
+- OpenStreetMap
 - Visual Studio Code
 - Git
 - GitHub
+- GitHub Pages
+- Live Server extension for Visual Studio Code
 
 ## Website Features
 
-* Clear navigation
-* Responsive and mobile-friendly layout
-* Product cards
-* Product images
-* Product descriptions
-* Enquiry form
-* Contact information
-* Consistent design and footer
-* Semantic HTML5 structure
-* External CSS stylesheet
+- Clear navigation
+- Responsive and mobile-friendly layout
+- Product cards
+- Product images
+- Product descriptions
+- Product search functionality
+- Product image lightbox
+- Interactive map showing both locations
+- Enquiry form with validation
+- Contact form with validation
+- Contact email preparation through Gmail
+- Contact information
+- Consistent design and footer
+- Semantic HTML5 structure
+- External CSS stylesheet
+- JavaScript functionality
 
 ## Part 1 Project Timeline
 
 The following activities were completed during Part 1:
 
-* Organisation research and selection
-* Website project proposals
-* Content research and sourcing
-* Sitemap planning
-* Website structure planning
-* Creation of the five HTML pages
-* Creation of the project folder structure
-* Creation of the README documentation
-* Initial GitHub repository setup
+- Organisation research and selection
+- Website project proposals
+- Content research and sourcing
+- Sitemap planning
+- Website structure planning
+- Creation of the five HTML pages
+- Creation of the project folder structure
+- Creation of the README documentation
+- Initial GitHub repository setup
 
 ## Part 1 Testing and Debugging
 
@@ -100,15 +111,15 @@ The website was checked during development to ensure that the required pages, na
 
 The following areas were considered during Part 1 testing:
 
-* Navigation links between all five pages
-* Page layout and content
-* Images and image paths
-* Enquiry form
-* CSS styling
-* HTML structure
-* Website links
-* Code readability
-* Responsive layout considerations
+- Navigation links between all five pages
+- Page layout and content
+- Images and image paths
+- Enquiry form
+- CSS styling
+- HTML structure
+- Website links
+- Code readability
+- Responsive layout considerations
 
 Testing and debugging were performed during development, and improvements were made where necessary.
 
@@ -146,25 +157,25 @@ Sone, D. (n.d.) *Assortment of breads and pastries.jpg* [Photograph]. Available 
 
 ### Initial Development
 
-* Created the YEAST Artisan Bakery & Grocer website.
-* Created five HTML pages: Home, About, Products, Enquiry and Contact.
-* Added an external CSS stylesheet.
-* Added product images and content.
-* Implemented navigation between the five pages.
-* Added an enquiry form.
-* Added contact and location information.
-* Created the project folder structure.
-* Added project documentation and image references.
-* Created the GitHub repository.
+- Created the YEAST Artisan Bakery & Grocer website.
+- Created five HTML pages: Home, About, Products, Enquiry and Contact.
+- Added an external CSS stylesheet.
+- Added product images and content.
+- Implemented navigation between the five pages.
+- Added an enquiry form.
+- Added contact and location information.
+- Created the project folder structure.
+- Added project documentation and image references.
+- Created the GitHub repository.
 
 ### Part 1 Feedback Improvements
 
-* Added a formal sitemap to the README.
-* Added website goals and objectives.
-* Added Part 1 project timeline information.
-* Added Part 1 testing and debugging documentation.
-* Added a formal changelog.
-* Improved README project documentation.
+- Added a formal sitemap to the README.
+- Added website goals and objectives.
+- Added Part 1 project timeline information.
+- Added Part 1 testing and debugging documentation.
+- Added a formal changelog.
+- Improved README project documentation.
 
 ## Project Structure
 
@@ -184,6 +195,9 @@ YEAST-Website/
 │   └── script.js
 │
 ├── images/
+│
+├── robots.txt
+├── sitemap.xml
 │
 └── README.md
 ```
@@ -332,3 +346,67 @@ The Enquiry form checks the submitted information and displays a confirmation me
 ### Part 3 — Testing
 
 The new functionality was tested using the Live Server extension in Visual Studio Code. The product search, image lightbox, map display, Enquiry form validation and Contact form email preparation were checked to confirm that they worked as expected.
+
+## Part 3 — Search Engine Optimisation (SEO)
+
+### On-Page SEO
+
+SEO improvements were made to all five HTML pages to help search engines understand the content of the YEAST Artisan Bakery & Grocer website.
+
+The following improvements were implemented:
+
+- Added a unique page title to each HTML page.
+- Added a meta description to each page to describe its content.
+- Added relevant keywords to the meta keywords tags.
+- Added author meta tags.
+- Improved image alternative text (alt text) to describe the images.
+- Used descriptive headings and relevant page content.
+- Maintained internal links between the five website pages.
+- Maintained the responsive and mobile-friendly website layout.
+
+### Technical SEO
+
+Two additional files were created in the main project folder:
+
+- `robots.txt` — allows search engine crawlers to access the website and provides the location of the sitemap.
+- `sitemap.xml` — lists all five website pages: Home, About, Products, Enquiry and Contact.
+
+The sitemap is available at:
+
+https://st10467985.github.io/YEAST-Artisan-Bakery-Grocer/sitemap.xml
+
+The robots file is available at:
+
+https://st10467985.github.io/YEAST-Artisan-Bakery-Grocer/robots.txt
+
+### Local SEO and Social Media
+
+The website includes information about the YEAST Bedfordview and Dunvegan locations. The Contact page provides location details, contact information and an interactive map to help visitors find the two locations.
+
+The existing Instagram link is also available on the website to help visitors access the organisation's social media page.
+
+### Website Deployment
+
+The website was published using GitHub Pages. The repository is configured to deploy from the `master` branch and the root folder.
+
+**Live website:**
+
+https://st10467985.github.io/YEAST-Artisan-Bakery-Grocer/
+
+### SEO Testing
+
+The following checks were completed:
+
+- Checked that all five HTML pages contain page titles and meta descriptions.
+- Checked that `robots.txt` opens correctly on the published website.
+- Checked that `sitemap.xml` opens correctly on the published website.
+- Confirmed that the sitemap lists all five website pages.
+- Confirmed that the GitHub Pages deployment completed successfully.
+
+### Part 3 GitHub Version Control
+
+The SEO updates were committed and pushed to the GitHub repository using the following commit message:
+
+`Complete Part 3 SEO updates and add sitemap`
+
+The updated HTML pages, `robots.txt`, `sitemap.xml` and README documentation form part of the Part 3 website development.
